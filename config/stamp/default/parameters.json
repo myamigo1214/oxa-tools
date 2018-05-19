@@ -27,7 +27,7 @@
             "value": "lexoxaadmin"
         },
         "adminPublicKey": {
-        	"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDYHJblPBpfFMtspxqJ0VNx8loCGZGknqBnKdwxauG8W0Zys8i4R2CufzoXd3aYB0aiYKXtjcrSrIymX3ZIzEwFvmBK5HmC1Q/kuBnGn51ul+bP5PXF7hZLR4sVoPlhO7UaGsdHY1GBuDDfmZUuJhO9fNAvLOeRmXYZUQMABi60BN+7SMeGIb0G8OjeyI9+m7nck+gwwFK12zKO7/raJx5rAxDTKTqc0ab2SCyQ4ZYPcAuYg3kdXNBewbVXtZVSgRIuA7ckSeC/44uguL7YVsbUkwv4fqmEuH4Hvuj2QyHpU2p5QlG162F0s9TPprVCPCIT69A93eovDyDy+gnybQneD5Swjnx4zTxY6mBztTGEImfHhFhnwYYRaq2uEpTP5r4w/CgMPXwizIaWsBvLDm+NTF3WGWrbfqwaZBkWxKu6ZrGEUAqajKPAE+UBIsddpt1TQA0XfGwew2fknTe3H5X5MZNuwO5i9K9D2Amwt0di9F37gY30nsbmrgI37/T8KyAx5gpFye8PyhG0B1u3BdxszRke86Yf7wpWjCGLqCVSOX3le6pjIoHtq6Pug77+A/XwkbLg1uWXYjsFCiZuQOKZ8hyNvqE90N4sWqEgGiGD4ixjAtDrTyHZUQ/ZFcVt1/qScNct1UW4Vc2ee/HtXtnCABWCKwptBN40CAIXCS0rpQ== v-duwang@MININT-02VUBMG"
+        	"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7eYJDA6DM9mIB9yLktdblZ8sE/I9ND9qKaLmC1K/UMwVP6uL1KY3pKzAwt2qeJdHi8Vx75LVkmC/op6w9rzGGabAhxk93wL3dEP7zwz73G8ljt5k0HRdgM5Mrg1yzpbBWJS6xery/cT62Yvp410Ut+aZu/mzfxVbnAMZMi67PW7ymMHTfceyP8rcMmC/xToRGSl3rfM6ULixbQW6gSC17KkDB4adRGtHdqpctUAmYFFk06JnI8xO3YTcr/6TbUZrmGx1+EC4La6ITXa8Gge+mULQ70d/ynEFLMuTs24NMuSe/+bPuQbGzFMZMoC52KPTkHIgEDaEspr37za27yWeDLw+/goLWm0MkoBJgEjn7ilRLsqIohVrhUyABCQuLMWTQxI7Vu7RUm5ylOOE2GmCa3oDTQ2DA7Yd+1dpIiadV+raR4LVWVUDsJJ9LilmrcADWLgWZNgROnx3/xMoo6H5QWFqZrnJkApVPsK4PIflX/QfySpnkaCCkxC5Pqwzan1pU5J3q/cKWZy7TVbkoTBvQDUvrrcPFkHwVUvidOowWEYrYuaarUDWozc2TfXXtQNJzJk7IafnLqDhthyqjanBMLQySkU4GlI83uazz4prNvSI5Ga2ciYO36G2GoVtR3/cZtSkksgFj/FZ+U/I9j3y/QNpaZhAFERfQKUVOecQXeQ== lili2017@lili.lan"
 		},
         "mongoServerAdminUserName": {
             "value": "oxamongoadmin"
@@ -75,7 +75,7 @@
             "value": 1
         },
         "oxaToolsGithubAccountName": {
-            "value": "iovex"
+            "value": "myamigo1214"
         },
         "oxaToolsGithubProjectName": {
             "value": "oxa-tools"
@@ -84,7 +84,7 @@
             "value": "oxa/master.fic"
         },
         "edxConfigurationGithubAccountName": {
-            "value": "iovex"
+            "value": "myamigo1214"
         },
         "edxConfigurationGithubProjectName": {
             "value": "edx-configuration"
@@ -93,7 +93,7 @@
             "value": "oxa/master.fic"
         },
         "edxPlatformGithubAccountName": {
-            "value": "iovex"
+            "value": "myamigo1214"
         },
         "edxPlatformGithubProjectName": {
             "value": "edx-platform"
@@ -102,7 +102,7 @@
             "value": "oxa/master.fic"
         },
         "edxThemeGithubAccountName": {
-            "value": "iovex"
+            "value": "myamigo1214"
         },
         "edxThemeGithubProjectName": {
             "value": "edx-theme"
@@ -254,7 +254,7 @@
             "value": ""
         },
         "baseDomain": {
-            "value": "{CLUSTERNAME}-tm.trafficmanager.cn"
+            "value": ""
         },
         "domainSeparator": {
             "value": "-"

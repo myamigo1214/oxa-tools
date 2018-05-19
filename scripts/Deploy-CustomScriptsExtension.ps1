@@ -64,7 +64,7 @@ Param(
         [Parameter(Mandatory=$true)][string]$PrimaryKey,
         [Parameter(Mandatory=$false)][string]$OmsWorkspaceId="-",
         [Parameter(Mandatory=$true)][string]$DeploymentVersionId,
-        [Parameter(Mandatory=$false)][string]$OxaToolsGithubAccountName="iovex",
+        [Parameter(Mandatory=$false)][string]$OxaToolsGithubAccountName="myamigo1214",
         [Parameter(Mandatory=$false)][string]$OxaToolsGithubProjectName="oxa-tools",
         [Parameter(Mandatory=$false)][string]$OxaToolsGithubBranch="oxa/master.fic ",
         [Parameter(Mandatory=$false)][switch]$Upgrade
@@ -83,7 +83,7 @@ Import-Module "$($currentPath)/Common.ps1" -Force
 $clientSecret = ConvertTo-SecureString -String $AadWebClientAppKey -AsPlainText -Force
 $aadCredential = New-Object System.Management.Automation.PSCredential($AadWebClientId, $clientSecret)
 Login-AzureRmAccount  -Environment AzureChinaCloud -ServicePrincipal -TenantId $AadTenantId -SubscriptionName $AzureSubscriptionName -Credential $aadCredential -ErrorAction Stop
-Set-AzureSubscription -SubscriptionName $AzureSubscriptionName | Out-Null
+Select-AzureSubscription -SubscriptionName $AzureSubscriptionName | Out-Null
 
 # if upgrade is set, we skip deleting the existing extensions
 if ($Upgrade -eq $false)
@@ -110,7 +110,7 @@ if ($Upgrade -eq $false)
                                                     $clientSecret = ConvertTo-SecureString -String $AadWebClientAppKey -AsPlainText -Force
                                                     $aadCredential = New-Object System.Management.Automation.PSCredential($AadWebClientId, $clientSecret)
                                                     Login-AzureRmAccount  -Environment AzureChinaCloud -ServicePrincipal -TenantId $AadTenantId -SubscriptionName $AzureSubscriptionName -Credential $aadCredential -ErrorAction Stop
-                                                    Set-AzureSubscription -SubscriptionName $AzureSubscriptionName | Out-Null
+                                                    Select-AzureSubscription -SubscriptionName $AzureSubscriptionName | Out-Null
 
                                                     Remove-AzureRmVMCustomScriptExtension -ResourceGroupName $ResourceGroupName -VMName $vmName -Name $extensionName -Force
 
