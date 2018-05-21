@@ -157,7 +157,7 @@ Param(
 
         [Parameter(Mandatory=$false)][string]$ServiceAccountPassword="5QFrMCIKJaVazBWisd0fMJR",
 
-        [Parameter(Mandatory=$false)][string]$PlatformName="Myamigo Learning",
+        [Parameter(Mandatory=$false)][string]$PlatformName="TechAcademy",
         [Parameter(Mandatory=$false)][string]$PlatformEmailAddress="",
 
         [Parameter(Mandatory=$false)][string]$EdxAppSuperUserName="edxappadmin",
