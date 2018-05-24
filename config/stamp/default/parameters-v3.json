@@ -84,7 +84,7 @@
             "value": "{GITHUBBRANCH}"
         },
         "edxConfigurationGithubAccountName": {
-            "value": "myamigo1214"
+            "value": "iovex"
         },
         "edxConfigurationGithubProjectName": {
             "value": "edx-configuration"
@@ -93,7 +93,7 @@
             "value": "{GITHUBBRANCH}"
         },
         "edxPlatformGithubAccountName": {
-            "value": "myamigo1214"
+            "value": "iovex"
         },
         "edxPlatformGithubProjectName": {
             "value": "edx-platform"
@@ -102,7 +102,7 @@
             "value": "{GITHUBBRANCH}"
         },
         "edxThemeGithubAccountName": {
-            "value": "myamigo1214"
+            "value": "iovex"
         },
         "edxThemeGithubProjectName": {
             "value": "edx-theme"

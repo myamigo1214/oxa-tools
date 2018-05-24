@@ -115,7 +115,7 @@
         },
         "edxConfigurationGithubAccountName": {
             "type": "string",
-            "defaultValue": "myamigo1214",
+            "defaultValue": "iovex",
             "metadata": {
                 "description": "Name of the account that owns the edx configuration repository"
             }
@@ -136,7 +136,7 @@
         },
         "edxPlatformGithubAccountName": {
             "type": "string",
-            "defaultValue": "myamigo1214",
+            "defaultValue": "iovex",
             "metadata": {
                 "description": "Name of the account that owns the edx platform repository"
             }
@@ -157,7 +157,7 @@
         },
         "edxThemeGithubAccountName": {
             "type": "string",
-            "defaultValue": "myamigo1214",
+            "defaultValue": "iovex",
             "metadata": {
                 "description": "Name of the account that owns the edx theme repository"
             }
